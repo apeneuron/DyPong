@@ -42,6 +42,7 @@ while it<MAX
     % -1 for "miss a ball", 0 for "no", and 1 for "successful return".
     % 2nd element: The vertical coordinate the agent faces the ball.
     % 3rd element: The logical flag indicates that the entire match is over.
+    
     info = env.gopad(action);
 end
 
